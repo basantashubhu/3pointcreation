@@ -1,105 +1,491 @@
 @extends('layouts.master')
 
 @section('content')
-    <!-- ======= Home Section ======= -->
-    <section id="home" class="about section-show" style="padding-bottom: 0;">
 
-        <!-- ======= About Me ======= -->
-        <div class="about-me">
 
-            <!-- video slider -->
+<!-- service section -->
+
+<section class="service_section layout_padding">
+    <div class="service_container">
+        <div class="container ">
+            <div class="heading_container heading_center">
+                <h2>
+                    Our <span>Services</span>
+                </h2>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                    alteration
+                </p>
+            </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <div style="height: 100vh;width: 100vw;" id="homeVideo">
-                        <video class="mt-3 mt-lg-0" width="100%" height="auto" autoplay muted style="position: absolute;top: 0;left: 0;z-index: -1;">
-                            <source src="/assets/teaser.mp4" type="video/mp4">
-                            Your browser does not support the video tag.
-                        </video>
+                <div class="col-md-4 ">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/s1.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Currency Wallet
+                            </h5>
+                            <p>
+                                fact that a reader will be distracted by the readable content of a page when looking
+                                at its layout.
+                                The
+                                point of using
+                            </p>
+                            <a href="">
+                                Read More
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
-
-                    <div id="aboutMe" class=""
-                         style="margin-top: 100px;">
-                        <!-- ======= About Me ======= -->
-                        <div class="about-me container">
-                            <div class="row">
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/1.jpeg" alt="lost" class="img-fluid mt-5">
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/2.png" alt="firm festival winner" class="img-fluid mt-5">
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/3.jpg" alt="coventry phoenix" class="img-fluid">
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/4.jpg" alt="bts" class="img-fluid">
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/5.jpg" alt="bts2" class="img-fluid">
-                                </div>
-                                <div class="col-md-4 mb-3">
-                                    <img src="/assets/img/home/6.jpg" alt="creative artist" class="img-fluid">
-                                </div>
-                            </div>
+                <div class="col-md-4 ">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/s2.png" alt="">
                         </div>
-                        <div class="about-me container">
-
-                            <div class="section-title">
-                                <!-- <h2>About</h2> -->
-                                <p>about me</p>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-lg-5" data-aos="fade-right">
-                                    <img src="/assets/img/profile.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="col-lg-7 pt-4 pt-lg-0 content" data-aos="fade-left">
-                                    <h3>Cinematographer/Post-production</h3>
-                                    <p>
-                                        I am an experienced cinematographer and videographer with extensive expertise in film and media
-                                        production processes. I am proficient in camera operation, visual storytelling, lighting techniques,
-                                        and post-production processes, including technical support, equipment maintenance, and production
-                                        management. I serve as the primary contact for supporting producers, directors, crew members, and
-                                        clients, offering creative solutions, technical expertise, and guidance on social media marketing
-                                        campaigns.
-                                    </p>
-                                </div>
-                            </div>
-                        </div><!-- End About Me -->
-
-                        <!-- ======= FOOTER ======= -->
-                        <div class="footer container mt-4 p-3">
-
-                            <div class="row">
-                                <div class="col-lg-12 pt-3 content" data-aos="fade-left">
-                                    <div class="d-flex align-items-center flex-column" style="gap: 10px;">
-                                        <div>
-                                            Email: <a href="mailto:ranjan.rimal5@gmail.com">ranjan.rimal5@gmail.com</a>
-                                        </div>
-                                        <div class="social-links d-flex" style="gap: 10px;">
-                                            <a href="https://www.instagram.com/rj_rimal" class="instagram"><i class="bi bi-instagram"></i></a>
-                                            <a href="https://www.youtube.com/@ranjanrimal1683" class="youtube"><i class="bi bi-youtube"></i></a>
-                                            <a href="https://www.facebook.com/ranjan.rimal" class="facebook"><i class="bi bi-facebook"></i></a>
-                                            <a href="https://www.linkedin.com/in/ranjan-rimal-559351163" class="linkedin"><i
-                                                    class="bi bi-linkedin"></i></a>
-                                            <a href="https://www.tiktok.com/@rj_rimal" class="tiktok"><i class="bi bi-tiktok"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="detail-box">
+                            <h5>
+                                Security Storage
+                            </h5>
+                            <p>
+                                fact that a reader will be distracted by the readable content of a page when looking
+                                at its layout.
+                                The
+                                point of using
+                            </p>
+                            <a href="">
+                                Read More
+                            </a>
                         </div>
-                        <!-- End FOOTER -->
-                        <br><br>
-
                     </div>
-
+                </div>
+                <div class="col-md-4 ">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/s3.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Expert Support
+                            </h5>
+                            <p>
+                                fact that a reader will be distracted by the readable content of a page when looking
+                                at its layout.
+                                The
+                                point of using
+                            </p>
+                            <a href="">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <div class="btn-box">
+                <a href="">
+                    View All
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-        </div><!-- End About Me -->
+<!-- end service section -->
 
-    </section>
-    <!-- End Home Section -->
+
+<!-- about section -->
+
+<section class="about_section layout_padding">
+    <div class="container  ">
+        <div class="heading_container heading_center">
+            <h2>
+                About <span>Us</span>
+            </h2>
+            <p>
+                Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum
+                ipsum voluptatibus
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-md-6 ">
+                <div class="img-box">
+                    <img src="images/about-img.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="detail-box">
+                    <h3>
+                        We Are Finexo
+                    </h3>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, but the majority have
+                        suffered alteration
+                        in some form, by injected humour, or randomised words which don't look even slightly
+                        believable. If you
+                        are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in
+                        the middle of text. All
+                    </p>
+                    <p>
+                        Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem,
+                        possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis
+                        ullam ab omnis quasi expedita.
+                    </p>
+                    <a href="">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end about section -->
+
+<!-- why section -->
+
+<section class="why_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center">
+            <h2>
+                Why Choose <span>Us</span>
+            </h2>
+        </div>
+        <div class="why_container">
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/w1.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Expert Management
+                    </h5>
+                    <p>
+                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
+                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
+                        tempore voluptate ducimus officia id, aspernatur nihil.
+                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
+                        reiciendis possimus animi autem natus
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/w2.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Secure Investment
+                    </h5>
+                    <p>
+                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
+                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
+                        tempore voluptate ducimus officia id, aspernatur nihil.
+                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
+                        reiciendis possimus animi autem natus
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/w3.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Instant Trading
+                    </h5>
+                    <p>
+                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
+                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
+                        tempore voluptate ducimus officia id, aspernatur nihil.
+                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
+                        reiciendis possimus animi autem natus
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="img-box">
+                    <img src="images/w4.png" alt="">
+                </div>
+                <div class="detail-box">
+                    <h5>
+                        Happy Customers
+                    </h5>
+                    <p>
+                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
+                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
+                        tempore voluptate ducimus officia id, aspernatur nihil.
+                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
+                        reiciendis possimus animi autem natus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="btn-box">
+            <a href="">
+                Read More
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- end why section -->
+
+<!-- team section -->
+<section class="team_section layout_padding">
+    <div class="container-fluid">
+        <div class="heading_container heading_center">
+            <h2 class="">
+                Our <span> Team</span>
+            </h2>
+        </div>
+
+        <div class="team_container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/team-1.jpg" class="img1" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Joseph Brown
+                            </h5>
+                            <p>
+                                Marketing Head
+                            </p>
+                        </div>
+                        <div class="social_box">
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/team-2.jpg" class="img1" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Nancy White
+                            </h5>
+                            <p>
+                                Marketing Head
+                            </p>
+                        </div>
+                        <div class="social_box">
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/team-3.jpg" class="img1" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Earl Martinez
+                            </h5>
+                            <p>
+                                Marketing Head
+                            </p>
+                        </div>
+                        <div class="social_box">
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="box ">
+                        <div class="img-box">
+                            <img src="images/team-4.jpg" class="img1" alt="">
+                        </div>
+                        <div class="detail-box">
+                            <h5>
+                                Josephine Allard
+                            </h5>
+                            <p>
+                                Marketing Head
+                            </p>
+                        </div>
+                        <div class="social_box">
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end team section -->
+
+
+<!-- client section -->
+
+<section class="client_section layout_padding">
+    <div class="container">
+        <div class="heading_container heading_center psudo_white_primary mb_45">
+            <h2>
+                What says our <span>Customers</span>
+            </h2>
+        </div>
+        <div class="carousel-wrap ">
+            <div class="owl-carousel client_owl-carousel">
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/client1.jpg" alt="" class="box-img">
+                        </div>
+                        <div class="detail-box">
+                            <div class="client_id">
+                                <div class="client_info">
+                                    <h6>
+                                        LusDen
+                                    </h6>
+                                    <p>
+                                        magna aliqua. Ut
+                                    </p>
+                                </div>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/client2.jpg" alt="" class="box-img">
+                        </div>
+                        <div class="detail-box">
+                            <div class="client_id">
+                                <div class="client_info">
+                                    <h6>
+                                        Zen Court
+                                    </h6>
+                                    <p>
+                                        magna aliqua. Ut
+                                    </p>
+                                </div>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/client1.jpg" alt="" class="box-img">
+                        </div>
+                        <div class="detail-box">
+                            <div class="client_id">
+                                <div class="client_info">
+                                    <h6>
+                                        LusDen
+                                    </h6>
+                                    <p>
+                                        magna aliqua. Ut
+                                    </p>
+                                </div>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <div class="img-box">
+                            <img src="images/client2.jpg" alt="" class="box-img">
+                        </div>
+                        <div class="detail-box">
+                            <div class="client_id">
+                                <div class="client_info">
+                                    <h6>
+                                        Zen Court
+                                    </h6>
+                                    <p>
+                                        magna aliqua. Ut
+                                    </p>
+                                </div>
+                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- end client section -->
+
 @endsection

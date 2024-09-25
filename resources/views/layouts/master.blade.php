@@ -1,61 +1,74 @@
-
-<!DOCTYPE html>
+<!DOCTYPE html lang>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" type="">
 
-    <title>{{ config('app.name') }}</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <title> {{ config('app.name') }} </title>
 
-    <!-- Favicons -->
-    <link href="/assets/img/favicon.png" rel="icon">
-    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-        rel="stylesheet">
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="/assets/vendor/bootstrap/css/bootstrap.min.css?v=1.0.0" rel="stylesheet">
-    <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css?v=1.0.0" rel="stylesheet">
-    <link href="/assets/vendor/boxicons/css/boxicons.min.css?v=1.0.0" rel="stylesheet">
-    <link href="/assets/vendor/glightbox/css/glightbox.min.css?v=1.0.0" rel="stylesheet">
-    <link href="/assets/vendor/remixicon/remixicon.css?v=1.0.0" rel="stylesheet">
-    <link href="/assets/vendor/swiper/swiper-bundle.min.css?v=1.0.0" rel="stylesheet">
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-    <!-- Template Main CSS File -->
-    <link href="/assets/css/style.css?v=1.0.0" rel="stylesheet">
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
 
-    @stack('styles')
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
 
-<body>
+<body class="sub_page">
 
-@include('layouts.navigation')
+    @include('layouts.header')
 
-<main>
     @yield('content')
-</main>
 
-<!-- Vendor JS Files -->
-<script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="/assets/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="/assets/vendor/php-email-form/validate.js"></script>
+    <!-- info section -->
+    @include('layouts.info-section')
+    <!-- end info section -->
 
-<!-- Template Main JS File -->
-<script src="/assets/js/main.js?v=1.0.0"></script>
-<script src="/assets/js/custom.js?v=1.0.1"></script>
+    <!-- footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By
+                <a href="/">3pointcreation</a>
+            </p>
+        </div>
+    </section>
+    <!-- footer section -->
 
-@stack('scripts')
+    <!-- jQery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 
