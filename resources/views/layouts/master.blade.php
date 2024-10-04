@@ -11,7 +11,8 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="images/favicon.png" type="">
+    {{-- <link rel="shortcut icon" href="images/logo.jpg" type=""> --}}
+    <link rel="shortcut icon" href="images/logopng.png" type="">
 
     <title> {{ config('app.name') }} </title>
 

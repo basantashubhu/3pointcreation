@@ -1,9 +1,22 @@
+<style>
+    .logo-text {
+        margin-left: 70px;
+    }
+</style>
 <!-- header section strats -->
 <header class="header_section">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <a class="navbar-brand" href="/">
-                <span>
+            <a class="navbar-brand position-relative" href="/">
+                <img src="/images/logopng.png" alt="3 Pointcreation" style="
+                    filter: invert(1);
+                    width: 80px;
+                    /* height: 80px; */
+                    top: 50%;
+                    transform: translateY(-50%);
+                    position: absolute;
+                ">
+                <span class="logo-text">
                     3pointcreation
                 </span>
             </a>

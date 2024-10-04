@@ -12,40 +12,46 @@
                         <a href="">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <span>
-                                Location
+                                Coventry, United Kindom
                             </span>
                         </a>
-                        <a href="">
+                        <a href="tel:+44(0)7536392665">
                             <i class="fa fa-phone" aria-hidden="true"></i>
                             <span>
-                                Call +01 1234567890
+                                +44(0)7536392665
                             </span>
                         </a>
-                        <a href="">
+                        <a href="tel:+44(0)7503319770">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span>
+                                +44(0)7503319770
+                            </span>
+                        </a>
+                        <a href="mailto:3pointcreationvisuals@gmail.com">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span>
-                                ranjan.rimal5@gmail.com
+                                3pointcreationvisuals@gmail.com
                             </span>
                         </a>
                     </div>
                 </div>
                 <div class="info_social">
-                    <a href="https://www.instagram.com/rj_rimal">
+                    <a href="https://www.instagram.com/3pointcreation/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.youtube.com/@ranjanrimal1683">
+                    <a href="https://www.youtube.com/@3pointcreation">
                         <i class="fa fa-youtube-play" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.facebook.com/ranjan.rimal">
+                    <a href="https://www.facebook.com/3pointcreationvisuals">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/ranjan-rimal-559351163">
+                    {{-- <a href="https://www.linkedin.com/in/ranjan-rimal-559351163">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
                     <a href="https://www.tiktok.com/@rj_rimal">
                         <img src="/images/tiktok-icon.png"
                              alt="tiktok icon" style="height: 34px;width: 34px;color: white;filter: invert(1)">
-                    </a>
+                    </a> --}}
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 info_col">

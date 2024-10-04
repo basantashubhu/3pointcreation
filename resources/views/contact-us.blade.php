@@ -74,23 +74,31 @@
                             <h3 class="h4 font-weight-bold mb-4 text-primary">Contact Information</h3>
                             <p class="mb-3 d-flex align-items-center">
                                 <i class="fa fa-map-marker text-primary mr-3 fa-lg"></i>
-                                <span>123 Main Street, City, Country</span>
+                                <span>Coventry, United Kindom</span>
                             </p>
                             <p class="mb-3 d-flex align-items-center">
                                 <i class="fa fa-phone text-primary mr-3 fa-lg"></i>
-                                <span>+1 234 567 8900</span>
+                                <a href="tel:+44(0)7536392665"><span>+44(0)7536392665</span></a> &nbsp;/&nbsp;
+                                <a href="tel:+44(0)7503319770"><span>+44(0)7503319770</span></a>
                             </p>
                             <p class="mb-3 d-flex align-items-center">
                                 <i class="fa fa-envelope text-primary mr-3 fa-lg"></i>
-                                <span>info@example.com</span>
+                                <a href="mailto:3pointcreationvisuals@gmail.com">
+                                    <span>3pointcreationvisuals@gmail.com</span>
+                                </a>
                             </p>
                         </div>
                         <div class="mt-4">
                             <h4 class="h5 font-weight-bold mb-3">Follow Us</h4>
-                            <a href="#" class="btn btn-outline-primary mr-2"><i class="fa fa-facebook fa-lg"></i></a>
-                            <a href="#" class="btn btn-outline-info mr-2"><i class="fa fa-twitter fa-lg"></i></a>
-                            <a href="#" class="btn btn-outline-secondary mr-2"><i class="fa fa-linkedin fa-lg"></i></a>
-                            <a href="#" class="btn btn-outline-danger"><i class="fa fa-instagram fa-lg"></i></a>
+                            <a href="https://www.facebook.com/3pointcreationvisuals" class="btn btn-outline-primary mr-2">
+                                <i class="fa fa-facebook fa-lg"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@3pointcreation" class="btn btn-outline-info mr-2">
+                                <i class="fa fa-youtube-play fa-lg"></i>
+                            </a>
+                            <a href="https://www.instagram.com/3pointcreation/" class="btn btn-outline-danger">
+                                <i class="fa fa-instagram fa-lg"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
