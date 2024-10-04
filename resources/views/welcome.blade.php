@@ -160,7 +160,7 @@
 
     <!-- client section -->
 
-    <section class="client_section layout_padding">
+    {{-- <section class="client_section layout_padding">
         <div class="container">
             <div class="heading_container heading_center psudo_white_primary mb_45">
                 <h2>
@@ -198,8 +198,32 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- end client section -->
+    
+    <section class="client_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center psudo_white_primary mb_45">
+                <h2>
+                    Our <span>Achievment</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                  <img src="/images/1.jpeg" alt="lost" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <img src="/images/2.png" alt="firm festival winner" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <img src="/images/3.jpg" alt="coventry phoenix" class="img-fluid">
+                </div>
+                
+                
+                
+              </div>
+        </div>
+    </section>
 
 @endsection
