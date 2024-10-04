@@ -4,9 +4,9 @@
 <!-- contact section -->
 <section class="contact_section py-5">
     <div class="container">
-        <div class="text-center mb-5">
-            <h2 class="display-4 font-weight-bold">
-                Get In <span class="text-primary">Touch</span>
+        <div class="heading_container heading_center mb-5">
+            <h2>
+                Get In <span>Touch</span>
             </h2>
         </div>
         <div class="row">

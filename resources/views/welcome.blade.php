@@ -1,491 +1,205 @@
 @extends('layouts.master')
 
 @section('content')
-
-
-<!-- service section -->
-
-<section class="service_section layout_padding">
-    <div class="service_container">
-        <div class="container ">
-            <div class="heading_container heading_center">
-                <h2>
-                    Our <span>Services</span>
-                </h2>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                    alteration
-                </p>
-            </div>
+    <!-- about us section -->
+    <section class="about_section layout_padding position-relative" style="background-color: rgba(0,0,0,0.6);">
+        <img src="/images/envybanner.png" alt="3pointcreation banner" style="position: absolute;width: 100%;height: 100%;z-index: -1; top: 0px;
+            filter: blur(2px);">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/s1.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Currency Wallet
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking
-                                at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
+                <div class="col-md-7">
+                    <div class="detail-box">
+                        <h3>
+                            Bring Your Vision to Life
+                        </h3>
+                        <p>
+                            Crafting Cinematic Experiences with Precision and Passion
+                        </p>
+                        <p>
+                            "We are a team of cinematography professionals dedicated to turning your creative ideas into
+                            visually stunning realities. From concept to post-production, we handle every detail to
+                            ensure your story is told in the most compelling way."
+                        </p>
+                        <div class="button-container">
+                            <a href="/services" class="btn btn-primary">Explore Our Services</a>
+                            <a href="/work" class="btn btn-danger">Watch Our Reel</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/s2.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Security Storage
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking
-                                at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/s3.png" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Expert Support
-                            </h5>
-                            <p>
-                                fact that a reader will be distracted by the readable content of a page when looking
-                                at its layout.
-                                The
-                                point of using
-                            </p>
-                            <a href="">
-                                Read More
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-box">
-                <a href="">
-                    View All
-                </a>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- end service section -->
+    </section>
+    <!-- end about us section -->
 
 
-<!-- about section -->
+    <!-- service section -->
 
-<section class="about_section layout_padding">
-    <div class="container  ">
-        <div class="heading_container heading_center">
-            <h2>
-                About <span>Us</span>
-            </h2>
-            <p>
-                Magni quod blanditiis non minus sed aut voluptatum illum quisquam aspernatur ullam vel beatae rerum
-                ipsum voluptatibus
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-6 ">
-                <div class="img-box">
-                    <img src="images/about-img.png" alt="">
+    <section class="service_section layout_padding">
+        <div class="service_container">
+            <div class="container ">
+                <div class="heading_container heading_center">
+                    <h2>
+                        Our <span>Services</span>
+                    </h2>
+                    <p>
+                        Professional cinematography services tailored to bring your creative vision to life, from concept development to final production.
+                    </p>
                 </div>
-            </div>
-            <div class="col-md-6">
-                <div class="detail-box">
-                    <h3>
-                        We Are Finexo
-                    </h3>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered alteration
-                        in some form, by injected humour, or randomised words which don't look even slightly
-                        believable. If you
-                        are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything
-                        embarrassing hidden in
-                        the middle of text. All
-                    </p>
-                    <p>
-                        Molestiae odio earum non qui cumque provident voluptates, repellendus exercitationem,
-                        possimus at iste corrupti officiis unde alias eius ducimus reiciendis soluta eveniet. Nobis
-                        ullam ab omnis quasi expedita.
-                    </p>
-                    <a href="">
-                        Read More
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s1.png"
+                                     alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Video Production
+                                </h5>
+                                <p>
+                                    End-to-end production services for commercials, films, documentaries, and music videos, from planning to post-production.
+                                </p>
+                                <a href="/services">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s2.png"
+                                     alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Cinematography Direction
+                                </h5>
+                                <p>
+                                    Professional cinematographers to lead the visual direction of projects, ensuring high-quality framing, lighting, and camera work.
+                                </p>
+                                <a href="/services">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="box ">
+                            <div class="img-box">
+                                <img src="images/s3.png"
+                                     alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>
+                                    Post-Production Services
+                                </h5>
+                                <p>
+                                    Editing, color grading, and visual effects to enhance the final product, ensuring it aligns with the project's creative vision.
+                                </p>
+                                <a href="/services">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="/services">
+                        View All
                     </a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- end about section -->
+    <!-- end service section -->
 
-<!-- why section -->
 
-<section class="why_section layout_padding">
-    <div class="container">
-        <div class="heading_container heading_center">
-            <h2>
-                Why Choose <span>Us</span>
-            </h2>
-        </div>
-        <div class="why_container">
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/w1.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Expert Management
-                    </h5>
-                    <p>
-                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
-                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
-                        tempore voluptate ducimus officia id, aspernatur nihil.
-                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
-                        reiciendis possimus animi autem natus
-                    </p>
-                </div>
+    <!-- about section -->
+
+    <section class="about_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    About <span>Us</span>
+                </h2>
+                <p>
+                    Crafting powerful visual stories through cinematography, 3pointcreation specializes in bringing ideas to life with passion and precision.
+                </p>
             </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/w2.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Secure Investment
-                    </h5>
-                    <p>
-                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
-                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
-                        tempore voluptate ducimus officia id, aspernatur nihil.
-                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
-                        reiciendis possimus animi autem natus
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/w3.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Instant Trading
-                    </h5>
-                    <p>
-                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
-                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
-                        tempore voluptate ducimus officia id, aspernatur nihil.
-                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
-                        reiciendis possimus animi autem natus
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/w4.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Happy Customers
-                    </h5>
-                    <p>
-                        Incidunt odit rerum tenetur alias architecto asperiores omnis cumque doloribus aperiam
-                        numquam! Eligendi corrupti, molestias laborum dolores quod nisi vitae voluptate ipsa? In
-                        tempore voluptate ducimus officia id, aspernatur nihil.
-                        Tempore laborum nesciunt ut veniam, nemo officia ullam repudiandae repellat veritatis unde
-                        reiciendis possimus animi autem natus
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="btn-box">
-            <a href="">
-                Read More
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- end why section -->
-
-<!-- team section -->
-<section class="team_section layout_padding">
-    <div class="container-fluid">
-        <div class="heading_container heading_center">
-            <h2 class="">
-                Our <span> Team</span>
-            </h2>
-        </div>
-
-        <div class="team_container">
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-1.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Joseph Brown
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                <div class="col-md-6">
+                    <div class="img-box">
+                        <img src="images/about-img.jpg" alt="">
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-2.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Nancy White
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-3.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Earl Martinez
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6">
-                    <div class="box ">
-                        <div class="img-box">
-                            <img src="images/team-4.jpg" class="img1" alt="">
-                        </div>
-                        <div class="detail-box">
-                            <h5>
-                                Josephine Allard
-                            </h5>
-                            <p>
-                                Marketing Head
-                            </p>
-                        </div>
-                        <div class="social_box">
-                            <a href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
-                            </a>
-                            <a href="#">
-                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <h3>
+                            We Are 3pointcreation
+                        </h3>
+                        <p>
+                            At 3pointcreation, we are a team of experienced cinematographers and storytellers who excel at producing high-quality visual content. Whether it’s for documentaries, music videos, commercials, or films, our goal is to create captivating imagery that resonates with audiences.
+                        </p>
+                        <p>
+                            From concept development to post-production, we handle every aspect of the filmmaking process with creativity and technical expertise. Our commitment to excellence and attention to detail ensures that your vision is translated into a stunning cinematic experience.
+                        </p>
+                        <a href="/about-us">
+                            Read More
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- end team section -->
+    </section>
 
 
-<!-- client section -->
+    <!-- end about section -->
 
-<section class="client_section layout_padding">
-    <div class="container">
-        <div class="heading_container heading_center psudo_white_primary mb_45">
-            <h2>
-                What says our <span>Customers</span>
-            </h2>
-        </div>
-        <div class="carousel-wrap ">
-            <div class="owl-carousel client_owl-carousel">
-                <div class="item">
-                    <div class="box">
-                        <div class="img-box">
-                            <img src="images/client1.jpg" alt="" class="box-img">
-                        </div>
-                        <div class="detail-box">
-                            <div class="client_id">
-                                <div class="client_info">
-                                    <h6>
-                                        LusDen
-                                    </h6>
-                                    <p>
-                                        magna aliqua. Ut
-                                    </p>
-                                </div>
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
+
+    <!-- client section -->
+
+    <section class="client_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center psudo_white_primary mb_45">
+                <h2>
+                    What says our <span>Customers</span>
+                </h2>
+            </div>
+            <div class="carousel-wrap ">
+                <div class="owl-carousel client_owl-carousel">
+                    @foreach($testimonials as $testimonial)
+                    <div class="item">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/team-{{ random_int(1, 4) }}.jpg"
+                                     alt="Testimonial"
+                                     class="box-img">
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <div class="detail-box">
+                                <div class="client_id">
+                                    <div class="client_info">
+                                        <h6>
+                                            {{ $testimonial['name'] }}
+                                        </h6>
+                                        <p>
+                                            {{ $testimonial['role'] }}, {{ $testimonial['company'] }}
+                                        </p>
+                                    </div>
+                                    <i class="fa fa-quote-left"
+                                       aria-hidden="true"></i>
+                                </div>
+                                <p>{{ $testimonial['message'] }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="img-box">
-                            <img src="images/client2.jpg" alt="" class="box-img">
-                        </div>
-                        <div class="detail-box">
-                            <div class="client_id">
-                                <div class="client_info">
-                                    <h6>
-                                        Zen Court
-                                    </h6>
-                                    <p>
-                                        magna aliqua. Ut
-                                    </p>
-                                </div>
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="img-box">
-                            <img src="images/client1.jpg" alt="" class="box-img">
-                        </div>
-                        <div class="detail-box">
-                            <div class="client_id">
-                                <div class="client_info">
-                                    <h6>
-                                        LusDen
-                                    </h6>
-                                    <p>
-                                        magna aliqua. Ut
-                                    </p>
-                                </div>
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                        <div class="img-box">
-                            <img src="images/client2.jpg" alt="" class="box-img">
-                        </div>
-                        <div class="detail-box">
-                            <div class="client_id">
-                                <div class="client_info">
-                                    <h6>
-                                        Zen Court
-                                    </h6>
-                                    <p>
-                                        magna aliqua. Ut
-                                    </p>
-                                </div>
-                                <i class="fa fa-quote-left" aria-hidden="true"></i>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- end client section -->
+    <!-- end client section -->
 
 @endsection

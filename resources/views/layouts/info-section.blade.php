@@ -24,23 +24,27 @@
                         <a href="">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                             <span>
-                                demo@gmail.com
+                                ranjan.rimal5@gmail.com
                             </span>
                         </a>
                     </div>
                 </div>
                 <div class="info_social">
-                    <a href="">
+                    <a href="https://www.instagram.com/rj_rimal">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@ranjanrimal1683">
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.facebook.com/ranjan.rimal">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a href="">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                    </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/ranjan-rimal-559351163">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <a href="https://www.tiktok.com/@rj_rimal">
+                        <img src="/images/tiktok-icon.png"
+                             alt="tiktok icon" style="height: 34px;width: 34px;color: white;filter: invert(1)">
                     </a>
                 </div>
             </div>
@@ -50,8 +54,7 @@
                         Info
                     </h4>
                     <p>
-                        necessary, making this the first true generator on the Internet. It uses a dictionary of
-                        over 200 Latin words, combined with a handful
+                        Crafting visual stories through expert cinematography for documentaries, music videos, commercials, and more.
                     </p>
                 </div>
             </div>
@@ -61,20 +64,20 @@
                         Links
                     </h4>
                     <div class="info_links">
-                        <a class="active" href="index.html">
+                        <a class="active" href="/">
                             Home
                         </a>
-                        <a class="" href="about.html">
-                            About
+                        <a class="" href="/about-us">
+                            About Us
                         </a>
-                        <a class="" href="service.html">
+                        <a class="" href="/services">
                             Services
                         </a>
-                        <a class="" href="why.html">
-                            Why Us
+                        <a class="" href="/work">
+                            Work
                         </a>
-                        <a class="" href="team.html">
-                            Team
+                        <a class="" href="/contact-us">
+                            Contact Us
                         </a>
                     </div>
                 </div>

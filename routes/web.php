@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\Admin;
 use App\Models\MenuItem;
+use App\Testimonial\Team;
+use App\Testimonial\Testimonial;
 use Illuminate\Support\Facades\Route;
 
 $menus = [
@@ -11,8 +13,11 @@ $menus = [
     ['slug' => 'contact-us', 'name' => 'Contact Us']
 ];
 
-Route::view('/', 'welcome', compact('menus'));
-Route::view('about-us', 'about-us', compact('menus'));
+$testimonials = Testimonial::all();
+$teamMembers = Team::all();
+
+Route::view('/', 'welcome', compact('menus', 'testimonials'));
+Route::view('about-us', 'about-us', compact('menus', 'teamMembers'));
 Route::view('services', 'services', compact('menus'));
 Route::view('work', 'work', compact('menus'));
 Route::view('team', 'team', compact('menus'));
