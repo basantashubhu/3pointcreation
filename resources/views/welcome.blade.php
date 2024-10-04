@@ -206,7 +206,7 @@
         <div class="container">
             <div class="heading_container heading_center psudo_white_primary mb_45">
                 <h2>
-                    Our <span>Achievment</span>
+                    Our <span>Achievement</span>
                 </h2>
             </div>
             <div class="row">
