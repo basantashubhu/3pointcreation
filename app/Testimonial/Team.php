@@ -26,7 +26,18 @@ class Team
                 'facebook' => 'https://www.facebook.com/ranjan.rimal',
                 'linkedin' => 'https://www.linkedin.com/in/ranjan-rimal-559351163',
             ]
-        ]
+        ],
+        [
+            'name' => 'Ranjan Rimal',
+            'role' => 'Manager',
+            'image' => 'newteam.jpg',
+            'socials' => [
+                'instagram' => 'https://www.instagram.com/rj_rimal',
+                'youtube-play' => 'https://www.youtube.com/@ranjanrimal1683',
+                'facebook' => 'https://www.facebook.com/ranjan.rimal',
+                'linkedin' => 'https://www.linkedin.com/in/ranjan-rimal-559351163',
+            ]
+        ],
     ];
 
     public static function all()
