@@ -22,7 +22,7 @@
                         </p>
                         <div class="button-container">
                             <a href="/services" class="btn btn-primary">Explore Our Services</a>
-                            <a href="/work" class="btn btn-danger">Watch Our Reel</a>
+                            <a href="/work" class="btn btn-danger">Our Work</a>
                         </div>
                     </div>
                 </div>
